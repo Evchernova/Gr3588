@@ -1,5 +1,5 @@
 ﻿//Считываем данные с консоли
-string? num1Line = Console.ReadLine();
+string? num1Line = Console.ReadLine()??"0";
 
  //Парсим введенные числа
 int num1 = int.Parse(num1Line);

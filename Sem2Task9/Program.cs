@@ -26,7 +26,7 @@ else
 }
 
 //Вариант 2
-char [] digits = numberSintezator.Next(10,100).ToString().ToCharArray();
+/*char [] digits = numberSintezator.Next(10,100).ToString().ToCharArray();
 Console.WriteLine(digits);
 
 int firstNumber = ((int)digits[0])-48;
@@ -37,5 +37,5 @@ int resultNumber = firstNumber>secondNumber?resultNumber=firstNumber:resultNumbe
 Console.WriteLine(resultNumber);
 
 //Вариант 3
-int[] indxAnsw = new int[90];
+int[] indxAnsw = new int[90];*/
 

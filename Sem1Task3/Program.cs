@@ -20,7 +20,7 @@ if(inputLine != null)
     //Находим название дня недели по введенному номеру
     //string outDayOfWeek = dayOfWeek[inputNumber-1];
 
-    string outDayOfWeek = string.Empty;
+    //string outDayOfWeek = string.Empty;
     //switch(inputNumber)
     //{
     //case 1:   outDayOfWeek[0] = "понедельник"; break;
