@@ -1,4 +1,7 @@
-﻿int[] array = GenArray(10,-9,9);
+﻿//Напишите программу замена элементов массива: 
+//положительные элементы замените на соответствующие отрицательные, и наоборот.
+
+int[] array = GenArray(10,-9,9);
      Print1DArr(array);
      int[] newArray = InverseArr(array);
      Print1DArr(newArray);

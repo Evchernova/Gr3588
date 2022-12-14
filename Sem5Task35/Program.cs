@@ -1,4 +1,7 @@
-﻿int[] array = GenArray(123,-100,100);
+﻿//Задайте одномерный массив из 123 случайных чисел. 
+//Найдите количество элементов массива, значения которых лежат в отрезке [10,99].
+
+int[] array = GenArray(123,-100,100);
  PrintArray(array);
  int result = CountElement(array,10,99);
  Console.WriteLine();
