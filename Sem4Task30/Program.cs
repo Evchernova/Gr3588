@@ -1,4 +1,6 @@
-﻿int ReadData(string msg)
+﻿//Напишите программу, которая выводит массив из 8 элементов, заполненный нулями и единицами в случайном порядке.
+
+int ReadData(string msg)
  {
      Console.WriteLine(msg);
      return int.Parse(Console.ReadLine() ?? "0");
