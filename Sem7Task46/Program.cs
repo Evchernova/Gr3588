@@ -51,6 +51,7 @@ int ReadData(string line)
              Console.ForegroundColor = col[new System.Random().Next(0,16)];
              Console.Write(matrix[i, j] + " ");
              Console.ResetColor(); 
+             System.Threading.Thread.Sleep(500);//Пауза после выполнения действий внутри цикла J на 500мс
          }
          Console.WriteLine();
      }

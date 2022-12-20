@@ -28,6 +28,10 @@ int ReadData(string line)
  {
      int res = 0;
      int min = matrix.GetLength(0) < matrix.GetLength(1) ? matrix.GetLength(0) : matrix.GetLength(1);
+//condition ? consequent : alternative
+//Выражение condition должно принимать значение true или false. 
+//Если condition принимает значение true, вычисляется выражение consequent, а результат становится результатом операции. Если condition принимает значение false, вычисляется выражение alternative, а результат становится результатом операции. 
+//Вычисляется только выражение consequent или alternative.
 
      for (int i = 0; i < min; i++)
      {
